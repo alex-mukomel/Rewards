@@ -1,0 +1,9 @@
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.BLL.Interface\obj\Debug\Rewards.BLL.Interface.csproj.CoreCompileInputs.cache
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.BLL.Interface\bin\Debug\Rewards.BLL.Interface.dll
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.BLL.Interface\bin\Debug\Rewards.BLL.Interface.pdb
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.BLL.Interface\bin\Debug\Rewards.Entities.dll
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.BLL.Interface\bin\Debug\Rewards.Entities.pdb
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.BLL.Interface\obj\Debug\Rewards.BLL.Interface.csprojAssemblyReference.cache
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.BLL.Interface\obj\Debug\Rewards.BLL.Interface.csproj.CopyComplete
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.BLL.Interface\obj\Debug\Rewards.BLL.Interface.dll
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.BLL.Interface\obj\Debug\Rewards.BLL.Interface.pdb

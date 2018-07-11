@@ -4,15 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A002295D-1F0F-445E-9CF0-853201ED1A51}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Rewards.BLL</RootNamespace>
-    <AssemblyName>Rewards.BLL</AssemblyName>
+    <ProjectGuid>{037CBB54-1C3D-4830-8785-5C316D292DFF}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Rewards.PL</RootNamespace>
+    <AssemblyName>Rewards.PL</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +23,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -40,23 +42,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MedalsLogic.cs" />
-    <Compile Include="PeopleLogic.cs" />
-    <Compile Include="RewardsLogic.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Reward.Container\Reward.Container.csproj">
+      <Project>{2020386f-0c3c-422d-8a45-a06f40cdeb0a}</Project>
+      <Name>Reward.Container</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Rewards.BLL.Interface\Rewards.BLL.Interface.csproj">
       <Project>{75BC9087-A837-46D7-844C-6C394983C493}</Project>
       <Name>Rewards.BLL.Interface</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Rewards.DAL.Interface\Rewards.DAL.Interface.csproj">
-      <Project>{7361c8d7-f055-4a00-aa98-f4c7a2f37521}</Project>
-      <Name>Rewards.DAL.Interface</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Rewards.Entities\Rewards.Entities.csproj">
-      <Project>{4947c1aa-0cd4-426d-8135-11906a557cf5}</Project>
-      <Name>Rewards.Entities</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

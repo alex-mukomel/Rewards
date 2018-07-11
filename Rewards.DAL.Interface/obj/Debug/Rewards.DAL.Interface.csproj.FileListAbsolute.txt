@@ -1,0 +1,9 @@
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.DAL.Interface\obj\Debug\Rewards.DAL.Interface.csprojAssemblyReference.cache
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.DAL.Interface\obj\Debug\Rewards.DAL.Interface.csproj.CoreCompileInputs.cache
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.DAL.Interface\bin\Debug\Rewards.DAL.Interface.dll
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.DAL.Interface\bin\Debug\Rewards.DAL.Interface.pdb
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.DAL.Interface\bin\Debug\Rewards.Entities.dll
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.DAL.Interface\bin\Debug\Rewards.Entities.pdb
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.DAL.Interface\obj\Debug\Rewards.DAL.Interface.csproj.CopyComplete
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.DAL.Interface\obj\Debug\Rewards.DAL.Interface.dll
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.DAL.Interface\obj\Debug\Rewards.DAL.Interface.pdb

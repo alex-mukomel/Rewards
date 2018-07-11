@@ -1,0 +1,17 @@
+C:\Users\mukom\source\repos\Rewards.BLL\Reward.Container\obj\Debug\Reward.Container.csprojAssemblyReference.cache
+C:\Users\mukom\source\repos\Rewards.BLL\Reward.Container\obj\Debug\Reward.Container.csproj.CoreCompileInputs.cache
+C:\Users\mukom\source\repos\Rewards.BLL\Reward.Container\bin\Debug\Reward.Container.dll
+C:\Users\mukom\source\repos\Rewards.BLL\Reward.Container\bin\Debug\Reward.Container.pdb
+C:\Users\mukom\source\repos\Rewards.BLL\Reward.Container\bin\Debug\Rewards.BLL.dll
+C:\Users\mukom\source\repos\Rewards.BLL\Reward.Container\bin\Debug\Rewards.BLL.Interface.dll
+C:\Users\mukom\source\repos\Rewards.BLL\Reward.Container\bin\Debug\Rewards.DAL.dll
+C:\Users\mukom\source\repos\Rewards.BLL\Reward.Container\bin\Debug\Rewards.DAL.Interface.dll
+C:\Users\mukom\source\repos\Rewards.BLL\Reward.Container\bin\Debug\Rewards.Entities.dll
+C:\Users\mukom\source\repos\Rewards.BLL\Reward.Container\bin\Debug\Rewards.BLL.Interface.pdb
+C:\Users\mukom\source\repos\Rewards.BLL\Reward.Container\bin\Debug\Rewards.BLL.pdb
+C:\Users\mukom\source\repos\Rewards.BLL\Reward.Container\bin\Debug\Rewards.DAL.Interface.pdb
+C:\Users\mukom\source\repos\Rewards.BLL\Reward.Container\bin\Debug\Rewards.DAL.pdb
+C:\Users\mukom\source\repos\Rewards.BLL\Reward.Container\bin\Debug\Rewards.Entities.pdb
+C:\Users\mukom\source\repos\Rewards.BLL\Reward.Container\obj\Debug\Reward.Container.csproj.CopyComplete
+C:\Users\mukom\source\repos\Rewards.BLL\Reward.Container\obj\Debug\Reward.Container.dll
+C:\Users\mukom\source\repos\Rewards.BLL\Reward.Container\obj\Debug\Reward.Container.pdb

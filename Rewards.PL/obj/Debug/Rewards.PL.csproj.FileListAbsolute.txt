@@ -1,0 +1,14 @@
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.PL\obj\Debug\Rewards.PL.csproj.CoreCompileInputs.cache
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.PL\bin\Debug\Rewards.PL.exe.config
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.PL\bin\Debug\Rewards.PL.exe
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.PL\bin\Debug\Rewards.PL.pdb
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.PL\bin\Debug\Reward.Container.dll
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.PL\bin\Debug\Rewards.BLL.Interface.dll
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.PL\bin\Debug\Rewards.Entities.dll
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.PL\bin\Debug\Reward.Container.pdb
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.PL\bin\Debug\Rewards.BLL.Interface.pdb
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.PL\bin\Debug\Rewards.Entities.pdb
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.PL\obj\Debug\Rewards.PL.csprojAssemblyReference.cache
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.PL\obj\Debug\Rewards.PL.csproj.CopyComplete
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.PL\obj\Debug\Rewards.PL.exe
+C:\Users\mukom\source\repos\Rewards.BLL\Rewards.PL\obj\Debug\Rewards.PL.pdb
