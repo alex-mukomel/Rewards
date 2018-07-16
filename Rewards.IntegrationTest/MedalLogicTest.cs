@@ -17,38 +17,34 @@ namespace Rewards.IntegrationTest
         {
             NinjectCommon.Registration();
             var medalLogic = NinjectCommon.Kernel.Get<IMedalsLogic>();
-            id = medalLogic.Add("For test", "Bronze");
+            id = medalLogic.Add("...", "Gold");
         }
 
 
         [TestMethod]
         public void TestUpdating()
         {
-            //NinjectCommon.Registration();
             var medalLogic = NinjectCommon.Kernel.Get<IMedalsLogic>();
 
             Medal medal = medalLogic.GetById(id);
-            medal.Name = "For update";
-
-            medalLogic.Update(id, "For update", "Bronze");
+            medal.Name = "update";
+            medalLogic.Update(id, "update", "Gold");
 
             Assert.AreEqual(Medal.ToString(medalLogic.GetById(id)), Medal.ToString(medal),
-                "Adding data about person incorrect");
+                "Error updating");
         }
 
-        [ExpectedException(typeof(NullReferenceException), "This item must be null")]
+        [ExpectedException(typeof(NullReferenceException), "...")]
         [TestMethod]
         public void TestDeleting()
         {
-            //NinjectCommon.Registration();
             var medalLogic = NinjectCommon.Kernel.Get<IMedalsLogic>();
 
             Medal medal = medalLogic.GetById(id);
-
             medalLogic.Delete(id);
 
             Assert.AreEqual(Medal.ToString(medalLogic.GetById(id)), Medal.ToString(medal),
-                "Adding data about person incorrect");
+                "Error updating");
         }
     }
 }
