@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Rewards.Entities;
+﻿using System.Collections.Generic;
 
 namespace Rewards.BLL.Interface
 {
@@ -11,6 +6,6 @@ namespace Rewards.BLL.Interface
     {
         void Add(int PersonId, int MedalId);
         void Delete(int PersonId, int MedalId);
-        IEnumerable<Reward> GetAll();
+        IEnumerable<string> GetAll();
     }
 }

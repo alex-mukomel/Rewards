@@ -1,18 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Rewards.BLL.Interface;
+﻿using Rewards.BLL.Interface;
 using Rewards.DAL.Interface;
-using Rewards.Entities;
+using System;
+using System.Collections.Generic;
 
 namespace Rewards.BLL
 {
     public class RewardsLogic : IRewardsLogic
     {
+        #region Fields
         private readonly IRewardDao _rewardDao;
-        
+        #endregion
+
         #region Constructor
         public RewardsLogic(IRewardDao rewardDao)
         {
@@ -21,17 +19,31 @@ namespace Rewards.BLL
         #endregion
 
         #region Methods
-        public void Add(int PersonId, int MedalId)
+        public void Add(int personId, int medalId)
         {
-            _rewardDao.Add(PersonId, MedalId);
+            if (!_rewardDao.IsPersonCreated(personId) || !_rewardDao.IsMedalCreated(medalId))
+            {
+                throw new Exception("Medal or person wasn't created");
+            }
+            else
+            {
+                _rewardDao.Add(personId, medalId);
+            }
         }
 
-        public void Delete(int PersonId, int MedalId)
+        public void Delete(int personId, int medalId)
         {
-            _rewardDao.Delete(PersonId, MedalId);
+            if (!_rewardDao.IsMedalCreated(personId) || !_rewardDao.IsPersonCreated(medalId))
+            {
+                throw new Exception("Medal or person wasn't created");
+            }
+            else
+            {
+                _rewardDao.Delete(personId, medalId);
+            }
         }
 
-        public IEnumerable<Reward> GetAll()
+        public IEnumerable<string> GetAll()
         {
             return _rewardDao.GetAll();
         }

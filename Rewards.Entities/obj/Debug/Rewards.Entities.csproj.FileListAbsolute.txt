@@ -4,3 +4,9 @@ C:\Users\mukom\source\repos\Rewards.BLL\Rewards.Entities\obj\Debug\Rewards.Entit
 C:\Users\mukom\source\repos\Rewards.BLL\Rewards.Entities\obj\Debug\Rewards.Entities.csproj.CoreCompileInputs.cache
 C:\Users\mukom\source\repos\Rewards.BLL\Rewards.Entities\obj\Debug\Rewards.Entities.dll
 C:\Users\mukom\source\repos\Rewards.BLL\Rewards.Entities\obj\Debug\Rewards.Entities.pdb
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.Entities\bin\Debug\Rewards.Entities.dll
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.Entities\bin\Debug\Rewards.Entities.pdb
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.Entities\obj\Debug\Rewards.Entities.csprojAssemblyReference.cache
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.Entities\obj\Debug\Rewards.Entities.csproj.CoreCompileInputs.cache
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.Entities\obj\Debug\Rewards.Entities.dll
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.Entities\obj\Debug\Rewards.Entities.pdb

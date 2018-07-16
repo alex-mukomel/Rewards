@@ -1,18 +1,15 @@
-﻿using System;
+﻿using Rewards.Entities;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Rewards.Entities;
 
 namespace Rewards.BLL.Interface
 {
     public interface IMedalsLogic
     {
-        void Add(string name, string material);
-        void Delete(int id);
+        int Add(string name, string material);
         void Update(int id, string name, string material);
+        void Delete(int id);
+        Medal GetById(int id);
+        bool OccursInReward(int id);
         IEnumerable<Medal> GetAll();
-
     }
 }

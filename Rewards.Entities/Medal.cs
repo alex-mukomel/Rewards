@@ -13,6 +13,11 @@ namespace Rewards.Entities
         public string Material { get; set; }
 
         ///
+        public static string ToString(Medal medal)
+        {
+            return $"{medal.Material} {medal.Name}";
+        }
+
         public override int GetHashCode()
         {
             return Id.GetHashCode() ^ Name.GetHashCode();

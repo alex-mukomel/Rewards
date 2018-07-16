@@ -9,3 +9,14 @@ C:\Users\mukom\source\repos\Rewards.BLL\Rewards.DAL\obj\Debug\Rewards.DAL.csproj
 C:\Users\mukom\source\repos\Rewards.BLL\Rewards.DAL\obj\Debug\Rewards.DAL.csproj.CopyComplete
 C:\Users\mukom\source\repos\Rewards.BLL\Rewards.DAL\obj\Debug\Rewards.DAL.dll
 C:\Users\mukom\source\repos\Rewards.BLL\Rewards.DAL\obj\Debug\Rewards.DAL.pdb
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.DAL\bin\Debug\Rewards.DAL.dll
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.DAL\bin\Debug\Rewards.DAL.pdb
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.DAL\bin\Debug\Rewards.DAL.Interface.dll
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.DAL\bin\Debug\Rewards.Entities.dll
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.DAL\bin\Debug\Rewards.DAL.Interface.pdb
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.DAL\bin\Debug\Rewards.Entities.pdb
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.DAL\obj\Debug\Rewards.DAL.csprojAssemblyReference.cache
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.DAL\obj\Debug\Rewards.DAL.csproj.CoreCompileInputs.cache
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.DAL\obj\Debug\Rewards.DAL.csproj.CopyComplete
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.DAL\obj\Debug\Rewards.DAL.dll
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.DAL\obj\Debug\Rewards.DAL.pdb

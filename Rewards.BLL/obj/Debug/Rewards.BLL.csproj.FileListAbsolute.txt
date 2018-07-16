@@ -11,3 +11,16 @@ C:\Users\mukom\source\repos\Rewards.BLL\Rewards.BLL\bin\Debug\Rewards.Entities.p
 C:\Users\mukom\source\repos\Rewards.BLL\Rewards.BLL\obj\Debug\Rewards.BLL.csproj.CopyComplete
 C:\Users\mukom\source\repos\Rewards.BLL\Rewards.BLL\obj\Debug\Rewards.BLL.dll
 C:\Users\mukom\source\repos\Rewards.BLL\Rewards.BLL\obj\Debug\Rewards.BLL.pdb
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.BLL\bin\Debug\Rewards.BLL.dll
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.BLL\bin\Debug\Rewards.BLL.pdb
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.BLL\bin\Debug\Rewards.BLL.Interface.dll
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.BLL\bin\Debug\Rewards.DAL.Interface.dll
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.BLL\bin\Debug\Rewards.Entities.dll
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.BLL\bin\Debug\Rewards.BLL.Interface.pdb
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.BLL\bin\Debug\Rewards.DAL.Interface.pdb
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.BLL\bin\Debug\Rewards.Entities.pdb
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.BLL\obj\Debug\Rewards.BLL.csprojAssemblyReference.cache
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.BLL\obj\Debug\Rewards.BLL.csproj.CoreCompileInputs.cache
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.BLL\obj\Debug\Rewards.BLL.csproj.CopyComplete
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.BLL\obj\Debug\Rewards.BLL.dll
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.BLL\obj\Debug\Rewards.BLL.pdb

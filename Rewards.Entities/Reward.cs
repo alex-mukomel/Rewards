@@ -9,7 +9,6 @@ namespace Rewards.Entities
     public class Reward
     {
         public int PersonId { get; set; }
-
         public int MedalId { get; set; }
 
         ///

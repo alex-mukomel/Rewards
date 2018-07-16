@@ -7,3 +7,12 @@ C:\Users\mukom\source\repos\Rewards.BLL\Rewards.BLL.Interface\obj\Debug\Rewards.
 C:\Users\mukom\source\repos\Rewards.BLL\Rewards.BLL.Interface\obj\Debug\Rewards.BLL.Interface.csproj.CopyComplete
 C:\Users\mukom\source\repos\Rewards.BLL\Rewards.BLL.Interface\obj\Debug\Rewards.BLL.Interface.dll
 C:\Users\mukom\source\repos\Rewards.BLL\Rewards.BLL.Interface\obj\Debug\Rewards.BLL.Interface.pdb
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.BLL.Interface\bin\Debug\Rewards.BLL.Interface.dll
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.BLL.Interface\bin\Debug\Rewards.BLL.Interface.pdb
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.BLL.Interface\bin\Debug\Rewards.Entities.dll
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.BLL.Interface\bin\Debug\Rewards.Entities.pdb
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.BLL.Interface\obj\Debug\Rewards.BLL.Interface.csprojAssemblyReference.cache
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.BLL.Interface\obj\Debug\Rewards.BLL.Interface.csproj.CoreCompileInputs.cache
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.BLL.Interface\obj\Debug\Rewards.BLL.Interface.csproj.CopyComplete
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.BLL.Interface\obj\Debug\Rewards.BLL.Interface.dll
+D:\mukom\Documents\GitHub\SummerPracticeEpam\Rewards.BLL.Interface\obj\Debug\Rewards.BLL.Interface.pdb

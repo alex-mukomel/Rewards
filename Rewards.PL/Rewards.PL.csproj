@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Ninject, Version=3.3.4.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.3.3.4\lib\net45\Ninject.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -47,15 +50,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Reward.Container\Reward.Container.csproj">
+    <ProjectReference Include="..\Reward.Container\Rewards.Container.csproj">
       <Project>{2020386f-0c3c-422d-8a45-a06f40cdeb0a}</Project>
-      <Name>Reward.Container</Name>
+      <Name>Rewards.Container</Name>
     </ProjectReference>
     <ProjectReference Include="..\Rewards.BLL.Interface\Rewards.BLL.Interface.csproj">
       <Project>{75BC9087-A837-46D7-844C-6C394983C493}</Project>
       <Name>Rewards.BLL.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Rewards.Entities\Rewards.Entities.csproj">
+      <Project>{4947c1aa-0cd4-426d-8135-11906a557cf5}</Project>
+      <Name>Rewards.Entities</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
