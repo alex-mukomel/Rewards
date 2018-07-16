@@ -11,70 +11,34 @@ namespace Rewards.IntegrationTest
     [TestClass]
     public class PersonLogicTest
     {
-        private static int id;
         [ClassInitialize]
         public static void Init(TestContext context)
         {
             NinjectCommon.Registration();
             var personLogic = NinjectCommon.Kernel.Get<IPeopleLogic>();
-            id = personLogic.Add("Vyacheslav", "Soloviev", new DateTime(1995, 12, 27), 23,
-                "Samara", "Chapaeva", "22/24");
+            var id = personLogic.Add("Alex", "Pak", new DateTime(1997, 10, 10), 21,
+                "Saratov", "Chapaeva", "60");
         }
 
         [TestMethod]
         public void TestAdding()
         {
-            //NinjectCommon.Registration();
             var personLogic = NinjectCommon.Kernel.Get<IPeopleLogic>();
-
-
-            id = personLogic.Add("Vyacheslav", "Soloviev", new DateTime(1995, 12, 27), 23,
-                "Samara", "Chapaeva", "22/24");
+            
             var person = new Person
             {
-                Name = "Vyacheslav",
-                Surname = "Soloviev",
-                DateOfBirth = new DateTime(1995, 12, 27),
-                Age = 23,
-                City = "Samara",
+                Name = "Alex",
+                Surname = "Pak",
+                DateOfBirth = new DateTime(1997, 10, 10),
+                Age = 21,
+                City = "Saratov",
                 Street = "Chapaeva",
-                NumberOfHouse = "22/24"
+                NumberOfHouse = "60"
             };
 
             Assert.AreEqual(Person.ToString(personLogic.GetById(id)), Person.ToString(person),
-                "Adding data about person incorrect");
+                "Error adding");
         }
-
-        //[TestMethod]
-        //public void TestUpdating()
-        //{
-        //    //NinjectCommon.Registration();
-        //    var personLogic = NinjectCommon.Kernel.Get<IPeopleLogic>();
-
-        //    Person person = personLogic.GetById(id);
-        //    person.Name = "Igor";
-
-        //    personLogic.Update(id, "Igor", "Soloviev", new DateTime(1995, 12, 27), 23,
-        //        "Samara", "Chapaeva", "22/24");
-
-        //    Assert.AreEqual(personLogic.ToString(personLogic.GetById(id)), personLogic.ToString(person),
-        //        "Adding data about person incorrect");
-        //}
-
-        //[ExpectedException(typeof(NullReferenceException), "This item must be null")]
-        //[TestMethod]
-        //public void TestDeleting()
-        //{
-        //    //NinjectCommon.Registration();
-        //    var personLogic = NinjectCommon.Kernel.Get<IPeopleLogic>();
-
-        //    Person person = personLogic.GetById(id);
-
-        //    personLogic.Delete(id);
-
-        //    Assert.AreEqual(personLogic.ToString(personLogic.GetById(id)), personLogic.ToString(person),
-        //        "Adding data about person incorrect");
-        //}
 
     }
 }
